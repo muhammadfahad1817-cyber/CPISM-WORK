@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .row {
+    width: 100%;
+    overflow: auto;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col {
+  flex: 1 0 0;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#col1{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col2{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col3{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col4{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+h1{
+  text-align: center;
+}
+</style>
+<body>
+  <h1>Our collection for middle class people's</h1>
+  <button onclick="Showing()">Info</button>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" id="col1">
+    <div class="card">
+      <img src="images20.jpg" class="card-img-top" alt="Toyota Corolla" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">Toyota Corolla  </h3>
+        <p class="card-text">Toyota keeps safety at the forefront, with every 2026 Corolla equipped with Toyota Safety Sense 3.0. This suite includes key features like forward collision warning, automatic emergency braking, lane-keeping assist, pedestrian detection, and adaptive cruise control. This car is specialy designed for the celebrity and it prices around 4 to 5 crore.</p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col2">
+    <div class="card">
+      <img src="images30.jpg" class="card-img-top" alt="Honda civic" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">Honda Civic</h3>
+        <p class="card-text">The Honda Civic is a popular, reliable compact car known for fuel efficiency, affordability, and sporty performance, evolving from its 1972 debut into a globally recognized sedan and hatchback, currently in its eleventh generation (since 2021) and available in gas and hybrid options, featuring modern tech like Honda SENSING and comfortable interiors for a practical yet fun daily drive.
+        </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col3">
+    <div class="card">
+      <img src="images40.jpg" class="card-img-top" alt="Honda city" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">Honda City</h3>
+        <p class="card-text">The Honda City is a popular subcompact sedan known for its spacious, comfortable interior, fuel efficiency, and reliable performance, blending practicality with modern tech like i-VTEC engines, CVT options, LED lighting, infotainment screens, and advanced safety features (in newer models), making it a strong choice in developing markets for its value, comfort, and enduring presence. </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col4">
+    <div class="card">
+      <img src="images50.jpg" class="card-img-top" alt="Toyota Yaris" width="100%" >
+      <div class="card-body">
+        <h3 class="card-title">Toyota Yaris</h3>
+        <p class="card-text">The Toyota Yaris is a popular subcompact car, known globally in hatchback and sedan (Yaris Ativ) forms, praised for its reliability, fuel efficiency, and surprising comfort, often featuring modern tech like smartphone integration, while offering both manual and CVT automatic transmissions, and prioritizing safety with features like standard center airbags in newer generations.</p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function Showing(){
+    alert("Welcome to our customer care center")
+  }
+</script>
+</body>
+</html>

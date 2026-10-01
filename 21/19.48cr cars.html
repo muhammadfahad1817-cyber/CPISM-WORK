@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .row {
+    width: 100%;
+    overflow: auto;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col {
+  flex: 1 0 0;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+ 
+}
+
+#col1{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+  
+}
+
+#col2{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col3{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col4{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+h1{
+    text-align: center;
+}
+</style>
+<body>
+    <h1>Our collection for armed  forces</h1>
+  <button onclick="Showing()">Info</button>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" id="col1">
+    <div class="card">
+      <img src="images111.jpg" class="card-img-top" alt="Oshkosh Joint Light Tactical Vehicle (JLTV)" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">Oshkosh Joint Light Tactical Vehicle (JLTV)  </h3>
+        <p class="card-text">The Oshkosh Joint Light Tactical Vehicle (JLTV) is the US military's next-generation light tactical vehicle, engineered to provide an unprecedented balance of MRAP-level protection, off-road mobility 70% faster than previous vehicles, and a robust C4ISR (Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance) technology backbone. Designed to partially replace the aging HMMWV fleet, the "go-anywhere, do-anything" Oshkosh JLTV excels in harsh battlefield environments. </p>
+        <button    onclick="routing('Oshkosh.html')" type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col2">
+    <div class="card">
+      <img src="images1.jpg" class="card-img-top" alt="Stryker (M1126 ICV and variants)" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">Stryker (M1126 ICV and variants)</h3>
+        <p class="card-text"> The Stryker (M1126 ICV) is a versatile, 8-wheeled armored vehicle for the U.S. Army, offering protected transport for 2 crew and 9 infantry, acting as an armored personnel carrier (APC). Derived from the Canadian LAV III, it provides tactical mobility, can mount weapons like .50 cal M2s or Mk19 grenade launchers via a remote weapon station, features 14.5mm armor protection with RPG upgrades, and supports infantry with mobile firepower and C4ISR capabilities. </p>
+        <button   onclick="routing('Stryker.html')"  type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col3">
+    <div class="card">
+      <img src="images11.jpg" class="card-img-top" alt="RG-31" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">RG-31</h3>
+        <p class="card-text">The RG-31 Nyala is a highly effective, multi-purpose Mine-Resistant Ambush Protected (MRAP) vehicle widely used by global forces, including the UN and US Army, for peacekeeping and combat missions in hazardous environments. Manufactured by BAE Systems Land Systems OMC and General Dynamics Land Systems, the RG-31 is renowned for its exceptional survivability against landmines and improvised explosive devices (IEDs). </p>
+        <button   onclick="routing('RG31.html')"  type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col4">
+    <div class="card">
+      <img src="images1111.jpg" class="card-img-top" alt="Rheinmetall Lynx KF41" width="100%" >
+      <div class="card-body">
+        <h3 class="card-title">Rheinmetall Lynx KF41</h3>
+        <p class="card-text">Lynx KF41: Modular IFV for Full Spectrum of Operations ...The Rheinmetall Lynx KF41 is a highly mobile, modular, next-generation tracked armored fighting vehicle (AFV) designed for adaptability across various missions, featuring a powerful 1,140hp engine for speed (>70km/h), advanced digital architecture, and modular protection (ballistic/mine) that can be upgraded for different threats, all on a common chassis for roles like Infantry Fighting Vehicle (IFV), command, or medical support, with key features being its strong power-to-weight ratio, Lance turret (30/35mm cannon, anti-tank missiles), and scalability for future growth. </p>
+        <button  onclick="routing('lynx.html')"  type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+function routing(en_page){
+ window.location.href= en_page
+}
+
+</script>
+</body>
+</html>

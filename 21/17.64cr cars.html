@@ -1,0 +1,107 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .row {
+    width: 100%;
+    overflow: auto;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col {
+  flex: 1 0 0;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#col1{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col2{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col3{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+
+#col4{
+  background-color: rgb(212, 28, 28);
+  outline: 2px solid black;
+  
+}
+h1{
+    text-align: center;
+}
+</style>
+<body>
+    <h1>Our collection for elite class people's</h1>
+  <button onclick="Showing()">Info</button>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" id="col1">
+    <div class="card">
+      <img src="images60.jpg" class="card-img-top" alt="rolls-royce la rose noire droptail" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">Rolls-royce la rose noire droptail  </h3>
+        <p class="card-text">The Rolls-Royce La Rose Noire Droptail is a bespoke, ultra-luxury two-seater roadster inspired by the Black Baccara rose, featuring unique parquetry of 1,603 pieces of wood representing falling petals, a removable electrochromic glass roof, and a high-complication Audemars Piguet timepiece integrated into the fascia. This coachbuilt marvel combines 1930s hot rod proportions with modern aerodynamics, a signature "droptail" tapering rear, and a powerful V12 engine, all built around the client's deep connection to France and the rose.  </p>  
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col2">
+    <div class="card">
+      <img src="images90.jpg" class="card-img-top" alt="BMW M5" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">BMW M5</h3>
+        <p class="card-text">The BMW M5 is the definitive high-performance luxury sedan that masterfully combines everyday practicality with heart-pounding, race-bred dynamics. Developed by BMW's M division ("Motorsport"), this iconic vehicle has long set the benchmark for the "super sedan" segment, offering an exhilarating blend of power, advanced technology, and executive comfort.  </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col3">
+    <div class="card">
+      <img src="images80.jpg" class="card-img-top" alt="BMW M4" width="100%">
+      <div class="card-body">
+        <h3 class="card-title">BMW M4</h3>
+        <p class="card-text">The BMW M4 is a high-performance luxury sports coupe renowned for its potent performance, track-ready dynamics, and daily usability. As the two-door variant of the M3 sedan, it features an aggressive design, highlighted by its distinctive front kidney grille, and offers an engaging driving experience for enthusiasts.  </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="col4">
+    <div class="card">
+      <img src="images70.jpg" class="card-img-top" alt="Rolls Royce Phantom" width="100%" >
+      <div class="card-body">
+        <h3 class="card-title">Rolls Royce Phantom</h3>
+        <p class="card-text">The Rolls-Royce Phantom is the pinnacle of automotive luxury, renowned for its unmatched comfort, handcrafted perfection, and commanding presence. It is the flagship sedan that defines the ultimate in prestige motoring, offering a serene, "magic carpet" ride.  </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function Showing(){
+    alert("Welcome to our customer care center")
+  }
+</script>
+</body>
+</html>
